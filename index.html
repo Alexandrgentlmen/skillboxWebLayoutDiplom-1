@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="icon" href="icon/favicon.ico">
+  <link rel="stylesheet" href="css/fonts.css" type="text/css">
+  <link rel="stylesheet" href="iconfonts/css/animation.css" type="text/css" />
+  <link rel="stylesheet" href="iconfonts/css/fontello.css" type="text/css" />
+  <link rel="stylesheet" href="iconfonts/css/fontello-codes.css" type="text/css" />
+  <link rel="stylesheet" href="iconfonts/css/fontello-embedded.css" type="text/css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <nav class="header__nav">
+        <button class="nav__btn_burger burger">
+          <span id="nav-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+        <ul class="nav__list list-reset">
+          <li class="nav__item">
+            <a href="#service" class="nav__link">Услуги</a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link checked">Портфолио</a>
+          </li>
+          <li class="nav__item">
+            <a href="#price" class="nav__link">Стоимость</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="tel:+74999955577" class="header__phone phone">+7&nbsp;(499) 995-55-77</a>
+      <button class="header__btn btn btn-reset" rel="client__form"><i class="header__call-logo icon-phone"></i><span>Заказать звонок</span></button>
+    </div>
+  </header>
+  <section class="about">
+    <span class="about__div about-fly__img"></span>
+    <span class="about__div_secondary about-fly__img"></span>
+    <span class="about__angular about-fly__img"></span>
+    <span class="about__angular_secondary about-fly__img"></span>
+    <span class="about__parentheses about-fly__img"></span>
+    <span class="about__lattice about-fly__img"></span>
+    <div class=" container about__container">
+      <div class="about-author">
+        <h1 class="about-author__title">Дмитрий Алексеев
+          <span class="about-author__span">Frontend-разработчик и веб-верстальщик</span>
+        </h1>
+        <button class="about-author__btn btn btn-fill btn-reset" rel="client__form">Узнать больше</button>
+      </div>
+      <picture class="picture-man">
+        <source srcset="img/man1920.png" media="(max-width:1920px)">
+        <source srcset="img/man--desktop.png" media="(max-width: 1024px)">
+        <source srcset="img/man--mobile.png" media="(max-width: 480px)">
+        <source srcset="img/man--mobile.png" media="(max-width: 320px)">
+        <img class="picture-man__img" srcset="img/man--desktop.png" src="img/myphoto.png" alt="моёФото">
+      </picture>
+    </div>
+    <picture>
+      <source srcset="img/ellipse_mobile@2x.png" media="(max-width: 576px)">
+        <source srcset="img/ellipse_1024.png" media="(max-width: 1024px)">
+        <!-- <source media="(max-width:768px)" srcset="img/ellipse.svg"> -->
+        <source srcset="img/ellipse_1024.png" media="(max-width: 1440px)">
+        <img src="img/ellipse_desktop.svg" class="picture-ellips__svg" aria-hidden="true" alt="Элипс">
+      </picture>
+  </section>
+  <section class="features" id="service">
+    <div class="container features__container">
+      <h2 class="features__title">Что я делаю</h2>
+      <ul class="features__list">
+        <li class="feature">
+          <img class="feature__img" src="img/tools.png" alt="лэндинг">
+          <p class="feature__sub">Вёрстка лендинг-страниц <br>и сайтов любой сложности</p>
+        </li>
+        <li class="feature">
+          <img class="feature__img" src="img/responsive.png" alt="адаптив">
+          <p class="feature__sub">Адаптивная верстка под все <br>браузеры и устройства</p>
+        </li>
+        <li class="feature">
+          <img class="feature__img" src="img/programming.png" alt="программирование">
+          <p class="feature__sub">Frontend-разработка <br>и программирование</p>
+        </li>
+        <li class="feature">
+          <img class="feature__img" src="img/coding.png" alt="доработка">
+          <p class="feature__sub">Исправление и доработка <br>существуующей вёрстки</p>
+        </li>
+      </ul>
+      <button class="features__btn btn-fill btn btn-reset" rel="client__form">Узнать стоимость</button>
+    </div>
+  </section>
+  <section class="portfolio" id="portfolio">
+    <div class="container portfolio__container">
+      <h2 class="portfolio__title">Примеры моих работ</h2>
+      <div class="gallery">
+        <div class="gallery__features">
+          <picture>
+          <source srcset="img/psycholog_1024.jpg" media="(max-width: 1024px)">
+          <img class="gallery__features_img" src="img/psyholog.jpg" alt="psyholog">
+          </picture>
+          Сайт психолога Веры Антоновой
+        </div>
+        <div class="gallery__features">
+          <picture>
+          <source srcset="img/kidshop_1024.jpg" media="(max-width: 1024px)">
+          <img class="gallery__features_img" src="img/kidsshop.png" alt="shopkids">
+          </picture>
+          Сайт магазина детской одежды
+        </div>
+        <div class="gallery__features">
+          <picture>
+          <source srcset="img/fishing1024.png" media="(max-width: 1024px)">
+          <img class="gallery__features_img" src="img/fishing.jpg" alt="shopfishing">
+          </picture>
+          Сайт магазина "Рыболов"
+        </div>
+        <div class="gallery__features">
+          <picture>
+          <source srcset="img/moto1024.jpg" media="(max-width: 1024px)">
+          <img class="gallery__features_img" src="img/moto1920.jpg" alt="shopfishing">
+          </picture>
+          Сайт магазина "Мотоциклоff"
+        </div>
+        <div class="gallery__features">
+          <picture>
+          <source srcset="img/balloons1024.jpg" media="(max-width: 1024px)">
+          <img class="gallery__features_img" src="img/balloons1920.jpg" alt="shopfishing">
+          </picture>
+          Сайт магазина "Шарикоff"
+        </div>
+        <div class="gallery__features">
+          <picture>
+          <source srcset="img/car1024.jpg" media="(max-width: 1024px)">
+          <img class="gallery__features_img" src="img/car1920.jpg" alt="shopfishing">
+          </picture>
+          Сайт магазина "Машин"
+        </div>
+      </div>
+      <button class="portfolio__btn btn-fill btn" rel="client__form">Заказать проект</button>
+    </div>
+  </section>
+  <section class="banner banner__gradient" id="price">
+    <div class="container banner__container">
+        <h2 class="banner__title">Адаптивная вёрстка под все устройства<br>и браузеры от 1000 рублей всего <span class="carry">за 4 часа.*</span>
+          <span class="banner__span">* Срок и стоимость могут отличаться от заявленных и расчитываются индивидуально, в зависимости от сложности задач.
+          </span>
+        </h2>
+        <span class="banner__div banner-fly__img"></span>
+        <span class="banner__angular banner-fly__img"></span>
+        <span class="banner__parentheses banner-fly__img"></span>
+        <span class="banner__parentheses_secondary banner-fly__img"></span>
+        <span class="banner__lattice banner__img_fly"></span>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer__container">
+      <nav class="footer__nav">
+        <ul class="nav__list list-reset">
+          <li class="nav__item">
+            <a class="nav__link" href="#service">Услуги</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#portfolio">Портфолио</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#price">Стоимость</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="contacts">
+        <a href="tel:+7(499)995-77-55"  class="call contacts__link" >
+          <i class="call-logo icon-phone-alt"></i>+7&nbsp;(499)&nbsp;995-77-55
+        </a>
+        <a href="mailto:dmitry@alekseev.com" class="email contacts__link">
+          <i class="email-logo icon-mail-alt"></i>dmitry@alekseev.com
+        </a>
+      </div>
+        <ul class="social-list list-reset">
+          <li class="address__btn_to-call btn-fill-address btn btn-reset" rel="client__form">Заказать звонок</li>
+          <li class="social-list__item"><a class="vk social social__link" target="_blank" href="https://www.vk.com/"></a></li>
+          <li class="social-list__item"><a class="fb social social__link" target="_blank" href="https://www.facebook.com/"></a></li>
+          <li class="social-list__item"><a class="tw social social__link" target="_blank" href="https://twitter.com/"></a></li>
+          <li class="social-list__item"><a class="inst social social__link" target="_blank" href="https://www.instagram.com/"></a></li>
+        </ul>
+       <div id="overlay" class="overlay-popup fix-block">
+        <div class="popup client__form">
+          <button class="popup__button_close icon-off"></button>
+          <h2 class="popup__title">Регистрация зявки:</h2>
+          <form id="reset_form" method="post" action="https://www.google.com/">
+            <input type="hidden" name="project_name" value="">
+            <input type="hidden" name="form_subject" value="Тема письма">
+            <label for="name">Введите имя:</label>
+            <input type="text" id="name" name="Твоё_имя" placeholder="Имя" required/>
+            <label for="phone">Введите телефон:</label>
+            <input type="tel" id="phone" placeholder="+7 (999) 99 99 999" name="Телефон" required/>
+            <input class="book_cite form__btn" type="submit" value="Заказать" />
+          </form>
+        </div>
+    </div>
+    <div id="overlay-confirm" class="confirm-popup fix-block">
+      <div class="popup fix-block client__form">
+        <button class="popup__button_close icon-off"></button>
+        <h2 class="popup__title_center">Вы отправили заявку!</h2>
+      </div>
+    </div>
+    </div>
+    <div class="copyright">
+      <small>&copy; Дмитрий Алексеев, 2016-2018</small>
+    </div>
+  </footer>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
