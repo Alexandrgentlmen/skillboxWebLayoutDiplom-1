@@ -441,20 +441,24 @@ a:focus {
 }
 .features__list {
   margin-top:   89px;
-  min-height: 245px;
+  margin-bottom: 40px;
+  /* min-height: 245px; */
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content:  space-between;
 }
 .feature {
-  min-width: 215px;
-  display:  flex;
-  justify-content:  flex-start;
+  min-width: 223px;
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
 }
 .feature__img {
-  object-fit: contain;
+  align-self: center;
+  max-width: 212px;
+  min-height: 200px;
+  object-fit: cover ;
 }
 .feature__sub {
   font-family: Roboto;
